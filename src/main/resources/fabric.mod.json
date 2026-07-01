@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "chatfilter",
+  "version": "${version}",
+  "name": "Chat Filter",
+  "description": "Automatically replaces 'fuck' with 'frick' in outgoing chat messages.",
+  "authors": [
+    "You"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.chatfilter.ChatFilterMod"
+    ]
+  },
+  "mixins": [
+    "chatfilter.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": ">=26.1.2",
+    "fabric-api": "*"
+  }
+}

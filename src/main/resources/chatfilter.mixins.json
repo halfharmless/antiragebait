@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.example.chatfilter.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "ChatFilterMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
